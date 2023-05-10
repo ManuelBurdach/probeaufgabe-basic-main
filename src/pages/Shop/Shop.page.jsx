@@ -8,7 +8,11 @@ const Shop = () => {
 
   const search = (event) => {
     event.preventDefault();
-    setFruits(data.filter((item) => item.title.toLowerCase().includes(event.target.value.toLowerCase())))
+    setFruits(
+      data.filter((item) =>
+        item.title.toLowerCase().includes(event.target.value.toLowerCase())
+      )
+    );
   };
 
   return (

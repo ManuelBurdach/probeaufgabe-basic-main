@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./Shopitem.module.css";
-//import { shoppingCardState } from "../../states/shoppingCard.state";
 
 const ShopItem = ({ item }) => {
-  //const shoppingCardItems = shoppingCardState((state)=> state.shoppingCardItems);
-
   return (
     <Link
       to={"details/" + item.sku}
