@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   max-width: var(--max-width);
-  background-color: red;
-  padding-top: 4rem;
+  background-color: rgb(225, 225, 225);
+  padding: 6rem 0 2rem;
   margin: 0 auto;
 }
 

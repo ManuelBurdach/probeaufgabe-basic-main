@@ -3,12 +3,13 @@
 }
 
 .ShoppingCard img{
-    width: 30px;
+    width: 40px;
 }
 
 .ShoppingCard p{
     position: absolute;
     color: white;
-    top: -1px;
-    right: 8px;
+    top: 2px;
+    left: 18px;
+    font-weight: 200;
 }
