@@ -1,0 +1,17 @@
+.DetailsItem{
+    margin:-1.5rem 0 -2rem;
+     padding:2rem
+}
+
+.centerDiv{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.centerDiv button{
+    width: 100px;
+    align-self: center;
+}
