@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import style from "./ShopingCard.module.css"
-import ShoppingCardImg from "../../../public/cart.png"
 
-const ShoppingCard = () => {
+const ShoppingCard = ({shoppingCardItems}) => {
     return(
-        <div className={style.ShoppingCard}>
-           <img src={ShoppingCardImg}/>
-        </div>
+        <Link className={style.ShoppingCard}>
+           <img src={window.location.origin + "/cart.png"} alt="shopping card"/> 
+           <p>{shoppingCardItems.length}</p>
+        </Link>
     )
 }
 

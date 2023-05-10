@@ -1,0 +1,21 @@
+.ShopItem {
+  width: 150px;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  box-shadow: 0 0 5px -3px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+    padding: 4px;
+}
+
+.img{
+    width: 80%;
+    margin: 15px auto;
+}
